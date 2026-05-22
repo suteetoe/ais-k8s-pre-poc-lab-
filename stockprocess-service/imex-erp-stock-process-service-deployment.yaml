@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: imex-erp-stock-process-service
-          image: ghcr.io/smlsoft/smljavawebservice:3.9.13-jdk11
+          image: ghcr.io/smlsoft/smljavawebservice:3.9.14-jdk11
           # resources:
           #   requests:
           #     memory: "4096Mi"
@@ -49,4 +49,4 @@ spec:
       volumes:
       - name: config-volume
         persistentVolumeClaim:
-          claimName: imexerp-config-pvc  
+          claimName: imexerp-config-pvc
